@@ -1,0 +1,9 @@
+@mixin center-c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin font{
+    font-family: 'Jost', sans-serif;
+}

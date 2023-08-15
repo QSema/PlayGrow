@@ -1,0 +1,115 @@
+.sun{
+    width: 100%;
+    height: 165vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top: 1px solid #eae3de;
+    overflow-x: hidden;
+
+    .teddy{
+        width: 100%;
+        height: 87%;
+        display: flex;
+        overflow: hidden;
+        
+
+        .other{
+            width: 33.3%;
+            height: 100%;
+            border-bottom: 1px solid #eae3de;
+            border-right: 1px solid #eae3de;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .ic{
+                width: 88.5%;
+                height: 91%;
+                cursor: pointer;
+
+                .img{
+                    background-color: #f7f3f0;
+                    width: 100%;
+                    height: 81.5%;
+                    transition: border-radius .30s cubic-bezier(.77,0,.175,1);
+
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .baby{
+                    width: 100%;
+                    height: 18.5%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+
+                    .b1{
+                        width: 100%;
+                        height: 23%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-end;
+                        align-items: flex-start;
+
+                        p{
+                            font-size: 13px;
+                            line-height: 16px;
+                            color: #8b8686;
+                            font-family: 'Jost', sans-serif;
+                            cursor: pointer;
+                        }
+
+                        p:hover{
+                            color: #db915e;
+                        }
+                    }
+
+                    .b2{
+                        width: 100%;
+                        height: 32%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: flex-start;
+
+                        h5{
+                            color: #000;
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 1.4;
+                            font-family: 'Jost', sans-serif;
+                        }
+                    }
+
+                    .b3{
+                        width: 100%;
+                        height: 23%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: flex-start;
+
+                        span{
+                            font-size: 15px;
+                            line-height: 1;
+                            font-weight: 400;
+                            letter-spacing: .1em;
+                            color: #6e6e6e;
+                            font-family: 'Jost', sans-serif;
+                        }
+                    }
+                }
+            }
+
+            .ic:hover .img{
+                border-radius: 50%;
+            }
+        }
+    }
+}
